@@ -1,0 +1,12 @@
+{
+  "name": "codember",
+  "version": "1.0.0",
+  "description": "Codemember challenges solution",
+  "type": "module",
+  "main": "index.js",
+  "author": "jpaddeo@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^10.1.0"
+  }
+}
