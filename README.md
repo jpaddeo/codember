@@ -10,14 +10,14 @@ Resolución de retos y pistas de los secretos que encontré del juego [codember]
 
 ## Tabla de retos
 
-|  Secreto  |               Solución                                                    |
+|  Challenge  |               Solución                                                    |
 | :---------: | :-----------------------------------------------------------------------: |
 |     #01     | [JS](challenge01/js/index.js)<br/>[PHP](challenge01/php/index.php)
 |     #02    | [JS](challenge02/js/index.js)<br/>[PHP](challenge02/php/index.php)  |
 
 ## Tabla de secretos
 
-|  Challenge  |               ¿Pistas?...                                                    |
+|  Secreto   |               ¿Pistas?...                                                    |
 | :---------: | :-----------------------------------------------------------------------: |
 |     #01     | imagen corrupta 
 |     #02    | cow (🐮)      |
