@@ -13,7 +13,7 @@ Resolución de retos y pistas de los secretos que encontré del juego [codember]
 |  Secreto  |               Solución                                                    |
 | :---------: | :-----------------------------------------------------------------------: |
 |     #01     | [JS](challenge01/js/index.js)<br/>[PHP](challenge01/php/index.php)
-|     #02    | [JS](challenge02/js/index.js)      |
+|     #02    | [JS](challenge02/js/index.js)<br/>[PHP](challenge02/php/index.php)  |
 
 ## Tabla de secretos
 
