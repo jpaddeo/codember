@@ -1,0 +1,15 @@
+{
+  "name": "codember-c02",
+  "version": "3.0.0",
+  "description": "Codemember challenge 03 solution",
+  "type": "module",
+  "main": "index.js",
+  "author": "jpaddeo@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^10.1.0"
+  },
+  "devDependencies": {
+    "vitest": "^0.25.2"
+  }
+}
