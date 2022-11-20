@@ -9,13 +9,14 @@ function getZebrasCount(colors) {
 
   let lastColor = '';
   let nextColor = colors[0];
-  let currentZebraCount = 1;
+  let currentZebraCount = 0;
 
   colors.forEach((currentColor) => {
     if (currentColor !== nextColor || lastColor === currentColor) {
       currentZebraCount = 1; // reseto el contador
     }
-    currentZebraCount++;
+    
+    currentColor === lastColor ? currentZebraCount = 1 : currentZebraCount++
     nextColor = lastColor;
     lastColor = currentColor;
     if (currentZebraCount > maxZebraCount) {
