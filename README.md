@@ -15,6 +15,7 @@ Resolución de retos y pistas de los secretos que encontré del juego [codember]
 |    #01    | [JS](challenge01/js/index.js)<br/>[PHP](challenge01/php/index.php) |
 |    #02    | [JS](challenge02/js/index.js)<br/>[PHP](challenge02/php/index.php) |
 |    #03    | [JS](challenge03/js/index.js)<br/>[PHP](challenge03/php/index.php) |
+|    #04    | [JS](challenge04/js/index.js)<br/>[PHP](challenge04/php/index.php) |
 
 ## Tabla de secretos
 

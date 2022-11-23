@@ -1,0 +1,9 @@
+{
+  "name": "codember-c04",
+  "version": "4.0.0",
+  "description": "Codemember challenge 04 solution",
+  "type": "module",
+  "main": "index.js",
+  "author": "jpaddeo@gmail.com",
+  "license": "MIT"
+}
