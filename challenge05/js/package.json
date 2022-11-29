@@ -1,0 +1,12 @@
+{
+  "name": "codember-c05",
+  "version": "5.0.0",
+  "description": "Codemember challenge 05 solution",
+  "type": "module",
+  "main": "index.js",
+  "author": "jpaddeo@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^10.1.0"
+  }
+}
