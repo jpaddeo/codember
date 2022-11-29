@@ -118,26 +118,16 @@ $mecenasOrig = ["Gorusuke",
 "CarlesSànchez"
 ];
 
-function lastIndexOf($haystack, $needle, $offset = 0) {
-    $haystackStr = implode('', $haystack);
-    $size = strlen($haystackStr);
-    $pos = strpos(strrev($haystackStr), $needle, $size - $offset);
-   
-    if ($pos === false)
-        return false;   
-    return $size - $pos;
-}
-
 function mecenasKiller ($mecenas, $mecenaEnMorir = 0) {
     if (count($mecenas) == 1) {
         return $mecenas[0];
     }
     $mecenaEnMorir = ($mecenaEnMorir + 1) % count($mecenas);
     if ($mecenaEnMorir > -1) {
-        $mecenas = array_splice($mecenas, 1);
+        $mecenas = array_splice($mecenas, $mecenaEnMorir);
     }
     mecenasKiller($mecenas, $mecenaEnMorir);
 }
 
 $ulitmoMecenaVivo = mecenasKiller($mecenasOrig);
-echo "submit " . $ulitmoMecenaVivo . "-" . lastIndexOf($mecenasOrig, $ulitmoMecenaVivo);
+echo "submit " . $ulitmoMecenaVivo . "-";
