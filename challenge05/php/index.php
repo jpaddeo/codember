@@ -2,7 +2,8 @@
 
 // TODO: file_get_contents and parse from file
 
-$mecenasOrig = ["Gorusuke",
+$mecenasOrig = [
+"Gorusuke",
 "DavidFabian",
 "ItziarZG",
 "edy WOLF",
@@ -119,15 +120,16 @@ $mecenasOrig = ["Gorusuke",
 ];
 
 function mecenasKiller ($mecenas, $mecenaEnMorir = 0) {
+    global $mecenasOrig;
     if (count($mecenas) == 1) {
-        return $mecenas[0];
+        echo "submit " . $mecenas[0] . "-" . array_search($mecenas[0], array_reverse($mecenasOrig, true), true);
+        return ;
     }
     $mecenaEnMorir = ($mecenaEnMorir + 1) % count($mecenas);
     if ($mecenaEnMorir > -1) {
-        $mecenas = array_splice($mecenas, $mecenaEnMorir);
+        array_splice($mecenas, $mecenaEnMorir, 1);
     }
     mecenasKiller($mecenas, $mecenaEnMorir);
 }
 
-$ulitmoMecenaVivo = mecenasKiller($mecenasOrig);
-echo "submit " . $ulitmoMecenaVivo . "-";
+mecenasKiller($mecenasOrig);
