@@ -17,6 +17,8 @@ function asciiToRealWords(str) {
   return words.trim();
 }
 
+console.time("challenge02");
 const encryptedMessage = fs.readFileSync('../encrypted.txt');
 
 console.log(`submit ${asciiToRealWords(encryptedMessage.toString())}`);
+console.timeEnd("challenge02");

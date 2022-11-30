@@ -53,5 +53,7 @@ console.log(
 ); // -> 6, green
 */
 
+console.time("challenge03");
 const solution = getZebrasCount(colorsArr);
 console.log(`submit ${solution.maxZebraCount}@${solution.maxZebraColor}`);
+console.timeEnd("challenge03");

@@ -14,4 +14,6 @@ function mecenasKiller(mecenas, mecenaEnMorir = 0) {
   mecenasKiller(mecenas, mecenaEnMorir);
 }
 
+console.time("challenge05");
 mecenasKiller([...mecenasOrig]);
+console.timeEnd("challenge05");

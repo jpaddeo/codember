@@ -15,11 +15,12 @@ const isValidPassword = (number) => {
   return validPassword;
 };
 
+console.time("challenge04");
 const validPasswords = [];
 for (let i = FROM; i <= TO; i++) {
   if (isValidPassword(i)) {
     validPasswords.push(i);
   }
 }
-
 console.log(`submit ${validPasswords.length}-${validPasswords[55]}`);
+console.timeEnd("challenge04");
