@@ -8,15 +8,33 @@ Resolución de retos y pistas de los secretos que encontré del juego [codember]
 
 </div>
 
+# 2023
+
 ## Tabla de retos
 
-| Challenge |                              Solución                              |
-| :-------: | :----------------------------------------------------------------: |
-|    #01    | [JS](challenge01/js/index.js)<br/>[PHP](challenge01/php/index.php) |
-|    #02    | [JS](challenge02/js/index.js)<br/>[PHP](challenge02/php/index.php) |
-|    #03    | [JS](challenge03/js/index.js)<br/>[PHP](challenge03/php/index.php) |
-|    #04    | [JS](challenge04/js/index.js)<br/>[PHP](challenge04/php/index.php) |
-|    #05    | [JS](challenge05/js/index.js)<br/>[PHP](challenge05/php/index.php) |
+| Challenge |                                   Solución                                   |
+| :-------: | :--------------------------------------------------------------------------: |
+|    #01    | [JS](2023/challenge01/js/index.js)<br/>[PHP](2023/challenge01/php/index.php) |
+
+## Tabla de secretos
+
+| Secreto |   ¿Pistas?...      |
+| :-----: | :----------------: |
+|   #01   | imagen blureada    |
+|   #02   | you have new email |
+|   #03   | konami code        |
+
+# 2022
+
+## Tabla de retos
+
+| Challenge |                                   Solución                                   |
+| :-------: | :--------------------------------------------------------------------------: |
+|    #01    | [JS](2022/challenge01/js/index.js)<br/>[PHP](2022/challenge01/php/index.php) |
+|    #02    | [JS](2022/challenge02/js/index.js)<br/>[PHP](2022/challenge02/php/index.php) |
+|    #03    | [JS](2022/challenge03/js/index.js)<br/>[PHP](2022/challenge03/php/index.php) |
+|    #04    | [JS](2022/challenge04/js/index.js)<br/>[PHP](2022/challenge04/php/index.php) |
+|    #05    | [JS](2022/challenge05/js/index.js)<br/>[PHP](2022/challenge05/php/index.php) |
 
 ## Tabla de secretos
 
@@ -29,4 +47,4 @@ Resolución de retos y pistas de los secretos que encontré del juego [codember]
 |   #05   | easter egg (Rick **Roll**)  |
 |   #06   |      mail command (?)       |
 |   #07   | contra video game => konami |
-|   #08   | wasm baby wasm              |
+|   #08   |       wasm baby wasm        |

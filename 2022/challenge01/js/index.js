@@ -1,6 +1,6 @@
 import fs from 'fs-extra';
 
-console.time("challenge01");
+console.time('challenge01');
 const usersStr = fs.readFileSync('../users.txt');
 const usersArr = usersStr.toString().split('\n');
 
@@ -25,4 +25,4 @@ usersArr.forEach((user) => {
 });
 
 console.log(`submit ${correctUsers}${lastCorrectUser}`);
-console.timeEnd("challenge01");
+console.timeEnd('challenge01');
