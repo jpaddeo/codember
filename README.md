@@ -15,6 +15,7 @@ Resolución de retos y pistas de los secretos que encontré del juego [codember]
 | Challenge |                                   Solución                                   |
 | :-------: | :--------------------------------------------------------------------------: |
 |    #01    | [JS](2023/challenge01/js/index.js)<br/>[PHP](2023/challenge01/php/index.php) |
+|    #02    | [JS](2023/challenge02/js/index.js) |
 
 ## Tabla de secretos
 
@@ -23,6 +24,9 @@ Resolución de retos y pistas de los secretos que encontré del juego [codember]
 |   #01   | imagen blureada    |
 |   #02   | you have new email |
 |   #03   | konami code        |
+|   #04   | you have new email |
+|   #05   | confettis?         |
+|   #06   | mago (most famous word in the world) |
 
 # 2022
 
