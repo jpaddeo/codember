@@ -503,13 +503,13 @@ const SECURITY_POLICIES_RULES = `8-10 r: ozrcdfnug
 const invalidKeys = [];
 
 SECURITY_POLICIES_RULES.split('\n').forEach((secPol) => {
-  const entireRule = secPol.split(':')[0];
-  const key = secPol.split(':')[1].trim();
+  const [entireRule, key] = secPol.split(':');
+  const keyTrimmed = key.trim();
   const [appearences, letter] = entireRule.split(' ');
   const [minLetter, maxLetter] = appearences.split('-');
-  const repeats = key.split(letter).length - 1;
+  const repeats = keyTrimmed.split(letter).length - 1;
   if (!(+repeats >= +minLetter && +repeats <= +maxLetter)) {
-    invalidKeys.push(key);
+    invalidKeys.push(keyTrimmed);
   }
 });
 
