@@ -17,6 +17,7 @@ Resolución de retos y pistas de los secretos que encontré del juego [codember]
 |    #01    | [JS](2023/challenge01/js/index.js)<br/>[PHP](2023/challenge01/php/index.php) |
 |    #02    | [JS](2023/challenge02/js/index.js) |
 |    #03    | [JS](2023/challenge03/js/index.js) |
+|    #04    | [JS](2023/challenge04/js/index.js) |
 
 ## Tabla de secretos
 
@@ -31,6 +32,7 @@ Resolución de retos y pistas de los secretos que encontré del juego [codember]
 |   #07   |  do roll command (do barrel roll) |
 |   #08   |  log_mars_mission.txt (you need to be sudo) => new mail |
 |   #09   |  Open AI man (you need to be sudo) => new mail |
+|   #10   |  cow habla |
 
 # 2022
 
