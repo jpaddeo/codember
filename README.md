@@ -18,6 +18,7 @@ Resolución de retos y pistas de los secretos que encontré del juego [codember]
 |    #02    | [JS](2023/challenge02/js/index.js) |
 |    #03    | [JS](2023/challenge03/js/index.js) |
 |    #04    | [JS](2023/challenge04/js/index.js) |
+|    #05    | [JS](2023/challenge05/js/index.js) |
 
 ## Tabla de secretos
 
@@ -33,6 +34,9 @@ Resolución de retos y pistas de los secretos que encontré del juego [codember]
 |   #08   |  log_mars_mission.txt (you need to be sudo) => new mail |
 |   #09   |  Open AI man (you need to be sudo) => new mail |
 |   #10   |  cow habla |
+|   #11   |  install midu katas |
+|   #12   |  check the CHANGLEOG (always) |
+|   #13   |  what causes a new fix in code (3 letters) |
 
 # 2022
 
